@@ -1,0 +1,40 @@
+#formulaire {
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+input {
+    margin-bottom: 10px;
+    zoom: 130%;
+    border-radius: 5px;
+    width: 200px;
+    background-color: rgb(196, 196, 196);
+}
+
+#formulaire > h3:nth-child(2) > input:nth-child(5) {
+    height: 50px;
+}
+
+#formulaire input:last-child {
+    width: 208px;
+    background-color: white;
+}
+
+input:hover {
+    background-color: rgb(26, 155, 194);
+}
+
+#formulaire input:last-child:hover {
+    background-color: green;
+}
+
+#message {
+    font-weight: bold;
+}
